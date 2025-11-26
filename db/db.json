@@ -1,0 +1,259 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "userProfile": "https://i.pravatar.cc/150?img=11",
+      "postImage": "https://picsum.photos/600/400?random=1",
+      "caption": "Morning vibes 🌅 #Morning#MornVibes",
+      "likes": 120,
+      "comments": [
+        { "user": "alex", "text": "Awesome bro!" },
+        { "user": "maria", "text": "Love this!" }
+      ],
+      "postedAt": "2025-01-20T09:15:00"
+    },
+    {
+      "id": 2,
+      "username": "tech_guy",
+      "userProfile": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://picsum.photos/600/400?random=2",
+      "caption": "Debugging all night 😪#happyNight",
+      "likes": 89,
+      "comments": [
+        { "user": "john_doe", "text": "Keep grinding!" }
+      ],
+      "postedAt": "2025-01-19T22:00:00"
+    },
+    {
+      "id": 3,
+      "username": "travel_addict",
+      "userProfile": "https://i.pravatar.cc/150?img=13",
+      "postImage": "https://picsum.photos/600/400?random=3",
+      "caption": "Beach day 🏖️#beach#bluebeachs",
+      "likes": 340,
+      "comments": [
+        { "user": "sara", "text": "Beautiful view!" },
+        { "user": "mike", "text": "Where is this?" }
+      ],
+      "postedAt": "2025-01-18T14:30:00"
+    },
+    {
+      "id": 4,
+      "username": "foodie",
+      "userProfile": "https://i.pravatar.cc/150?img=14",
+      "postImage": "https://picsum.photos/600/400?random=4",
+      "caption": "Best pasta in town 🍝 #Pasta#townlife",
+      "likes": 220,
+      "comments": [],
+      "postedAt": "2025-01-18T12:10:00"
+    },
+    {
+      "id": 5,
+      "username": "coder_life",
+      "userProfile": "https://i.pravatar.cc/150?img=15",
+      "postImage": "https://picsum.photos/600/400?random=5",
+      "caption": "React + Coffee = ❤️ #codewithCoffee",
+      "likes": 190,
+      "comments": [
+        { "user": "dev_girl", "text": "Same here!" }
+      ],
+      "postedAt": "2025-01-17T20:00:00"
+    },
+    {
+      "id": 6,
+      "username": "fitness_freak",
+      "userProfile": "https://i.pravatar.cc/150?img=16",
+      "postImage": "https://picsum.photos/600/400?random=6",
+      "caption": "Leg day 🔥 #gymmotivation",
+      "likes": 450,
+      "comments": [
+        { "user": "john_doe", "text": "Beast mode!" }
+      ],
+      "postedAt": "2025-01-16T07:00:00"
+    },
+    {
+      "id": 7,
+      "username": "nature_lover",
+      "userProfile": "https://i.pravatar.cc/150?img=17",
+      "postImage": "https://picsum.photos/600/400?random=7",
+      "caption": "Mountains calling 🏔️ #mountains",
+      "likes": 380,
+      "comments": [
+        { "user": "alex", "text": "I want to go!" }
+      ],
+      "postedAt": "2025-01-15T10:45:00"
+    },
+    {
+      "id": 8,
+      "username": "gamer_x",
+      "userProfile": "https://i.pravatar.cc/150?img=18",
+      "postImage": "https://picsum.photos/600/400?random=8",
+      "caption": "New high score 🎮🔥 #highScores#winning",
+      "likes": 140,
+      "comments": [
+        { "user": "maria", "text": "Teach me!" }
+      ],
+      "postedAt": "2025-01-14T19:20:00"
+    },
+    {
+      "id": 9,
+      "username": "pet_paradise",
+      "userProfile": "https://i.pravatar.cc/150?img=19",
+      "postImage": "https://picsum.photos/600/400?random=9",
+      "caption": "My cute puppy 🐶 #petParadise",
+      "likes": 510,
+      "comments": [
+        { "user": "sara", "text": "So cute!" }
+      ],
+      "postedAt": "2025-01-13T09:10:00"
+    },
+    {
+      "id": 10,
+      "username": "car_enthusiast",
+      "userProfile": "https://i.pravatar.cc/150?img=20",
+      "postImage": "https://picsum.photos/600/400?random=10",
+      "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
+      "likes": 310,
+      "comments": [
+        { "user": "john_doe", "text": "Wow bro!" }
+      ],
+      "postedAt": "2025-01-12T15:55:00"
+    }
+  ],
+  "profile" : {
+      "id": 1,
+      "username": "john_doe",
+      "userProfile": "https://i.pravatar.cc/150?img=11",
+      "postImage": "https://picsum.photos/600/400?random=1",
+      "caption": "Morning vibes 🌅 #Morning#MornVibes",
+      "likes": 120,
+      "comments": [
+        { "user": "alex", "text": "Awesome bro!" },
+        { "user": "maria", "text": "Love this!" }
+      ],
+      "postedAt": "2025-01-20T09:15:00"
+  },
+  "suggesstions" : [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "userProfile": "https://i.pravatar.cc/150?img=11",
+      "postImage": "https://picsum.photos/600/400?random=1",
+      "caption": "Morning vibes 🌅 #Morning#MornVibes",
+      "likes": 120,
+      "comments": [
+        { "user": "alex", "text": "Awesome bro!" },
+        { "user": "maria", "text": "Love this!" }
+      ],
+      "postedAt": "2025-01-20T09:15:00"
+    },
+    {
+      "id": 2,
+      "username": "tech_guy",
+      "userProfile": "https://i.pravatar.cc/150?img=12",
+      "postImage": "https://picsum.photos/600/400?random=2",
+      "caption": "Debugging all night 😪#happyNight",
+      "likes": 89,
+      "comments": [
+        { "user": "john_doe", "text": "Keep grinding!" }
+      ],
+      "postedAt": "2025-01-19T22:00:00"
+    },
+    {
+      "id": 3,
+      "username": "toursit_123",
+      "userProfile": "https://i.pravatar.cc/150?img=13",
+      "postImage": "https://picsum.photos/600/400?random=3",
+      "caption": "Beach day 🏖️#beach#bluebeachs",
+      "likes": 340,
+      "comments": [
+        { "user": "sara", "text": "Beautiful view!" },
+        { "user": "mike", "text": "Where is this?" }
+      ],
+      "postedAt": "2025-01-18T14:30:00"
+    },
+    {
+      "id": 4,
+      "username": "Ifran_foodie",
+      "userProfile": "https://i.pravatar.cc/150?img=14",
+      "postImage": "https://picsum.photos/600/400?random=4",
+      "caption": "Best pasta in town 🍝 #Pasta#townlife",
+      "likes": 220,
+      "comments": [],
+      "postedAt": "2025-01-18T12:10:00"
+    },
+    {
+      "id": 5,
+      "username": "loser_code@1234",
+      "userProfile": "https://i.pravatar.cc/150?img=15",
+      "postImage": "https://picsum.photos/600/400?random=5",
+      "caption": "React + Coffee = ❤️ #codewithCoffee",
+      "likes": 190,
+      "comments": [
+        { "user": "dev_girl", "text": "Same here!" }
+      ],
+      "postedAt": "2025-01-17T20:00:00"
+    },
+    {
+      "id": 6,
+      "username": "fitness_beast",
+      "userProfile": "https://i.pravatar.cc/150?img=16",
+      "postImage": "https://picsum.photos/600/400?random=6",
+      "caption": "Leg day 🔥 #gymmotivation",
+      "likes": 450,
+      "comments": [
+        { "user": "john_doe", "text": "Beast mode!" }
+      ],
+      "postedAt": "2025-01-16T07:00:00"
+    },
+    {
+      "id": 7,
+      "username": "nature_lover",
+      "userProfile": "https://i.pravatar.cc/150?img=17",
+      "postImage": "https://picsum.photos/600/400?random=7",
+      "caption": "Mountains calling 🏔️ #mountains",
+      "likes": 380,
+      "comments": [
+        { "user": "alex", "text": "I want to go!" }
+      ],
+      "postedAt": "2025-01-15T10:45:00"
+    },
+    {
+      "id": 8,
+      "username": "vathiyar_gaming",
+      "userProfile": "https://i.pravatar.cc/150?img=18",
+      "postImage": "https://picsum.photos/600/400?random=8",
+      "caption": "New high score 🎮🔥 #highScores#winning",
+      "likes": 140,
+      "comments": [
+        { "user": "maria", "text": "Teach me!" }
+      ],
+      "postedAt": "2025-01-14T19:20:00"
+    },
+    {
+      "id": 9,
+      "username": "pet_paradise",
+      "userProfile": "https://i.pravatar.cc/150?img=19",
+      "postImage": "https://picsum.photos/600/400?random=9",
+      "caption": "My cute puppy 🐶 #petParadise",
+      "likes": 510,
+      "comments": [
+        { "user": "sara", "text": "So cute!" }
+      ],
+      "postedAt": "2025-01-13T09:10:00"
+    },
+    {
+      "id": 10,
+      "username": "car_enthusiast",
+      "userProfile": "https://i.pravatar.cc/150?img=20",
+      "postImage": "https://picsum.photos/600/400?random=10",
+      "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
+      "likes": 310,
+      "comments": [
+        { "user": "john_doe", "text": "Wow bro!" }
+      ],
+      "postedAt": "2025-01-12T15:55:00"
+    }
+  ]
+}
