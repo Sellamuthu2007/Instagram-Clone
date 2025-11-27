@@ -1,22 +1,14 @@
 import React,{useState,useEffect} from "react";
+import useFetch from "./useFetch";
 
 
 function Posts (){
 
-    const [posts,setPosts] = useState([]);
-
-    useEffect(()=>{
-
-        fetch('http://localhost:3000/posts')
-        .then((res) => res.json())
-        .then((data) => setPosts(data))
-        .catch((err) => console.log(err))
-
-    },[]);
+    const [posts,loading] = useFetch('http://localhost:3000/posts')
 
     return (             
             <div className="d-flex justify-content-center">
-                {posts.length > 0 ? (
+                {posts ? (
                     <div>
                         {posts.map((post)=>{
                             return (
