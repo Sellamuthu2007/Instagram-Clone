@@ -13,10 +13,20 @@ function Suggesstions(){
        <>
         <div className="suggesstion">
         {profile  ? (
-            <div className="d-flex">
+            <div className="d-flex"
+            style = {
+                    {
+                        "marginTop" : "40px"
+                    }
+                 }>
                 <img src={profile.userProfile} alt="Profile image" className="dp rounded-circle" />
                 <h5>{profile.username}</h5>
-                <small className="side-right">Switch</small>
+                <p className="side-right"
+                style={
+                        {
+                            "marginRight" : "90px"
+                        }
+                    }>Switch</p>
             </div>          
             
          )
@@ -26,23 +36,44 @@ function Suggesstions(){
     }
     <div className="row-flex">
         <p>Suggessted for you</p>
-        <strong className="side-right">See all </strong>
+        <strong className="side-right"
+        
+        style={{ "marginRight" : "90px"}}>See all </strong>
     </div>
     <div>
          {suggest ?  (
             suggest.map((sugg)=>{
                return (
                 <>
-                 <div className="row-flex suggest">
+                 <div className="row-flex suggest"
+                 style = {
+                    {
+                        "marginTop" : "15px"
+                    }
+                 }
+                 key = {sugg.id}
+                 >
                     <div className="user-info">
                         <div className="row-flex suggest">
     <div className="user-info">
-        <img src={sugg.userProfile} className="dp rounded-circle" />
+        <img src={sugg.userProfile} className="dp rounded-circle story-border" 
+        style = {
+            {
+                "height" : "40px",
+                "width" : "40px"
+            }
+        }/>
         <h5>{sugg.username}</h5>
     </div>
 </div>
                     </div>
-                    <p className="text-primary">Follow</p>
+                    <p className="ms-auto text-primary"
+                    style={
+                        {
+                            "marginRight" : "90px"
+                        }
+                    }
+                    >Follow</p>
                  </div>
                 </>
                )

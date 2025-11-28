@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import Sidebar from './sidebar'
+import Sidebar from './components/sidebar'
 import Feedbar from './feedbar'
 import Suggesstions from './suggesstions'
+import Layout from './Layout'
+
 function App() {
     return (
       <div className = "d-flex vh-100">                   

@@ -1,7 +1,3 @@
-import InstaText from './assets/InstaText.png'
-import house from './assets/house-fill.svg'
-
-
 
 function Sidebar(){
     return (

@@ -13,10 +13,10 @@
   cursor : pointer;   
 }
 
-.sidebar div{
+.sidebar div{   
   margin-top: 20px;
-  background-color: black;
-  color:white;
+  background-color:white;
+  color : black;
 }
 
 .sidebar div:hover{
@@ -28,23 +28,18 @@
   width : 20%;
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
-  background-color: black;
+  color : black;
   
 }
 
 .side-left i{
-  color : white;
+  color : black;
   padding : 25px;
   font-size: 32px;
 }
 
 .sidebar div:hover{
-  background-color: #444;
-}
-
-#stories{
-    height : 20vh;
-    width : 100%;
+  background-color: whitesmoke;
 }
 
 .dp{   
@@ -59,6 +54,7 @@
 }
 /* Left section: profile + username */
 .user-info {
+  cursor : pointer;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -75,6 +71,7 @@
  
 
 .side-right {
+  cursor : pointer;
   margin-left: auto;   /* pushes it to the right */
   margin-right: 10px;  /* 10px from right */
   color: #111fff;
@@ -87,6 +84,61 @@
   width: 100%;
 }
 
+.storybar{
+  margin-left : 30px;
+  display: flex;
+  align-items: center;
+  flex-direction : column;
+  
+  flex-shrink: 0;
+}
+
+
+.story-border {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  ); /* Instagram iconic gradient */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stories{
+  margin-top : 15px;
+  height : 23vh;
+  width : 100%;
+  cursor : pointer; 
+  display: flex;
+  flex-direction : row;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.profilePic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  ); /* Instagram iconic gradient */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
