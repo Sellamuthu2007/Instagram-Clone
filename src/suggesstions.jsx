@@ -16,6 +16,7 @@ function Suggesstions(){
             <div className="d-flex"
             style = {
                     {
+                        "marginLeft" : "10px",
                         "marginTop" : "40px"
                     }
                  }>
@@ -35,12 +36,12 @@ function Suggesstions(){
         )  
     }
     <div className="row-flex">
-        <p>Suggessted for you</p>
-        <strong className="side-right"
+        <p style={{"marginLeft" : "30px"}}>Suggessted for you</p>
+        <p className="side-right"
         
-        style={{ "marginRight" : "90px"}}>See all </strong>
+        style={{ "marginRight" : "90px"}}>See all </p>
     </div>
-    <div>
+    <div style = {{"overflow-y" : "auto" , "height" : "100vh"}}>
          {suggest ?  (
             suggest.map((sugg)=>{
                return (

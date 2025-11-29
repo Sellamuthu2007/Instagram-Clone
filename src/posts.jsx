@@ -9,14 +9,16 @@ function Posts (){
     return (             
             <div className="d-flex justify-content-center">
                 {posts ? (
-                    <div>
+                    <div style = {{
+                                    "overflow-y" : "auto",
+                                    "height" : "100vh"
+                                }}>
                         {posts.map((post)=>{
                             return (
                                 <div key = {post.id} className="y-3">
                                 <div style = {
                                     {
-                                        "display" : "flex",
-                                        
+                                        "display" : "flex"                                        
                                     }
                                 }>
                                     <img src={post.userProfile} className="dp rounded-circle" alt="Profile image"/>

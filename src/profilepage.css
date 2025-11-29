@@ -1,0 +1,34 @@
+.profilePage{
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top : 20px;
+}
+.profileDetails .top{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.profileDetails .top div{
+    margin-left : 20px;
+}
+.profileDetails .middle{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;    
+}
+.profileDetails .middle div{
+    margin-left : 20px;
+}
+.profileDetails .bottom{    
+    margin-left : 20px;
+    display: flex;
+    flex-direction : column;
+  
+}
+.profileDetails .bottom div{
+    margin-left : 20px;
+}
+
+

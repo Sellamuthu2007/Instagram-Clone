@@ -1,11 +1,16 @@
+import { useNavigate } from "react-router-dom";
 
 function Sidebar(){
+
+    const navigate = useNavigate();
+
     return (
         <>
              <div className='side-left'>
                 <div className='sidebar'>
                 <i className="bi bi-instagram" id="side-logo"></i>
-                <div><i className="bi bi-house" id="side-logo"></i><span>Home</span></div>
+                <div onClick={()=> navigate('/')}><i className="bi bi-house" id="side-logo"
+                ></i><span>Home</span></div>
                 <div><i className="bi bi-camera-reels" id="side-logo"></i><span>Reels</span></div>
                 <div><i className="bi bi-send" id="side-logo"></i><span>Messages</span></div>
                 <div><i className="bi bi-search" id="side-logo"></i><span>Search</span></div>

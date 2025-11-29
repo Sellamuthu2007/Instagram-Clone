@@ -134,188 +134,280 @@
       ],
       "postedAt": "2025-01-20T09:15:00"
     },
-  "suggesstions" : [
-    {
-      "id": 1,
-      "username": "john_doe",
-      "userProfile": "https://i.pravatar.cc/150?img=11",
-      "postImage": "https://picsum.photos/600/400?random=1",
-      "caption": "Morning vibes 🌅 #Morning#MornVibes",
-      "likes": 120,
-      "comments": [
-        { "user": "alex", "text": "Awesome bro!" },
-        { "user": "maria", "text": "Love this!" }
-      ],
-      "postedAt": "2025-01-20T09:15:00"
-    },
-    {
-      "id": 2,
-      "username": "tech_guy",
-      "userProfile": "https://i.pravatar.cc/150?img=12",
-      "postImage": "https://picsum.photos/600/400?random=2",
-      "caption": "Debugging all night 😪#happyNight",
-      "likes": 89,
-      "comments": [
-        { "user": "john_doe", "text": "Keep grinding!" }
-      ],
-      "postedAt": "2025-01-19T22:00:00"
-    },
-    {
-      "id": 3,
-      "username": "toursit_123",
-      "userProfile": "https://i.pravatar.cc/150?img=13",
-      "postImage": "https://picsum.photos/600/400?random=3",
-      "caption": "Beach day 🏖️#beach#bluebeachs",
-      "likes": 340,
-      "comments": [
-        { "user": "sara", "text": "Beautiful view!" },
-        { "user": "mike", "text": "Where is this?" }
-      ],
-      "postedAt": "2025-01-18T14:30:00"
-    },
-    {
-      "id": 4,
-      "username": "Ifran_foodie",
-      "userProfile": "https://i.pravatar.cc/150?img=14",
-      "postImage": "https://picsum.photos/600/400?random=4",
-      "caption": "Best pasta in town 🍝 #Pasta#townlife",
-      "likes": 220,
-      "comments": [],
-      "postedAt": "2025-01-18T12:10:00"
-    },
-    {
-      "id": 5,
-      "username": "loser_code@1234",
-      "userProfile": "https://i.pravatar.cc/150?img=15",
-      "postImage": "https://picsum.photos/600/400?random=5",
-      "caption": "React + Coffee = ❤️ #codewithCoffee",
-      "likes": 190,
-      "comments": [
-        { "user": "dev_girl", "text": "Same here!" }
-      ],
-      "postedAt": "2025-01-17T20:00:00"
-    },
-    {
-      "id": 6,
-      "username": "fitness_beast",
-      "userProfile": "https://i.pravatar.cc/150?img=16",
-      "postImage": "https://picsum.photos/600/400?random=6",
-      "caption": "Leg day 🔥 #gymmotivation",
-      "likes": 450,
-      "comments": [
-        { "user": "john_doe", "text": "Beast mode!" }
-      ],
-      "postedAt": "2025-01-16T07:00:00"
-    },
-    {
-      "id": 7,
-      "username": "nature_lover",
-      "userProfile": "https://i.pravatar.cc/150?img=17",
-      "postImage": "https://picsum.photos/600/400?random=7",
-      "caption": "Mountains calling 🏔️ #mountains",
-      "likes": 380,
-      "comments": [
-        { "user": "alex", "text": "I want to go!" }
-      ],
-      "postedAt": "2025-01-15T10:45:00"
-    },
-    {
-      "id": 8,
-      "username": "vathiyar_gaming",
-      "userProfile": "https://i.pravatar.cc/150?img=18",
-      "postImage": "https://picsum.photos/600/400?random=8",
-      "caption": "New high score 🎮🔥 #highScores#winning",
-      "likes": 140,
-      "comments": [
-        { "user": "maria", "text": "Teach me!" }
-      ],
-      "postedAt": "2025-01-14T19:20:00"
-    },
-    {
-      "id": 9,
-      "username": "pet_paradise",
-      "userProfile": "https://i.pravatar.cc/150?img=19",
-      "postImage": "https://picsum.photos/600/400?random=9",
-      "caption": "My cute puppy 🐶 #petParadise",
-      "likes": 510,
-      "comments": [
-        { "user": "sara", "text": "So cute!" }
-      ],
-      "postedAt": "2025-01-13T09:10:00"
-    },
-    {
-      "id": 10,
-      "username": "car_enthusiast",
-      "userProfile": "https://i.pravatar.cc/150?img=20",
-      "postImage": "https://picsum.photos/600/400?random=10",
-      "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
-      "likes": 310,
-      "comments": [
-        { "user": "john_doe", "text": "Wow bro!" }
-      ],
-      "postedAt": "2025-01-12T15:55:00"
-    },
-    {
-      "id": 11,
-      "username": "A_D__Prabhu",
-      "userProfile": "https://i.pravatar.cc/150?img=17",
-      "postImage": "https://picsum.photos/600/400?random=7",
-      "caption": "Mountains calling 🏔️ #mountains",
-      "likes": 380,
-      "comments": [
-        { "user": "alex", "text": "I want to go!" }
-      ],
-      "postedAt": "2025-01-15T10:45:00"
-    },
-    {
-      "id": 12,
-      "username": "Gamer_infinity",
-      "userProfile": "https://i.pravatar.cc/150?img=18",
-      "postImage": "https://picsum.photos/600/400?random=8",
-      "caption": "New high score 🎮🔥 #highScores#winning",
-      "likes": 140,
-      "comments": [
-        { "user": "maria", "text": "Teach me!" }
-      ],
-      "postedAt": "2025-01-14T19:20:00"
-    },
-    {
-      "id": 13,
-      "username": "Tech_Guruji",
-      "userProfile": "https://i.pravatar.cc/150?img=19",
-      "postImage": "https://picsum.photos/600/400?random=9",
-      "caption": "My cute puppy 🐶 #petParadise",
-      "likes": 510,
-      "comments": [
-        { "user": "sara", "text": "So cute!" }
-      ],
-      "postedAt": "2025-01-13T09:10:00"
-    },
-    {
-      "id": 14,
-      "username": "thar_lover",
-      "userProfile": "https://i.pravatar.cc/150?img=20",
-      "postImage": "https://picsum.photos/600/400?random=10",
-      "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
-      "likes": 310,
-      "comments": [
-        { "user": "john_doe", "text": "Wow bro!" }
-      ],
-      "postedAt": "2025-01-12T15:55:00"
-    },
-    {
-      "id": 15,
-      "username": "cricket_lover(IND)",
-      "userProfile": "https://i.pravatar.cc/150?img=18",
-      "postImage": "https://picsum.photos/600/400?random=8",
-      "caption": "New high score 🎮🔥 #highScores#winning",
-      "likes": 140,
-      "comments": [
-        { "user": "maria", "text": "Teach me!" }
-      ],
-      "postedAt": "2025-01-14T19:20:00"
-    }
-  ]
+ "suggesstions": [
+  {
+    "id": 1,
+    "username": "john_doe",
+    "userProfile": "https://i.pravatar.cc/150?img=11",
+    "postImage": "https://picsum.photos/600/400?random=1",
+    "caption": "Morning vibes 🌅 #Morning#MornVibes",
+    "likes": 120,
+    "comments": [
+      { "user": "alex", "text": "Awesome bro!" },
+      { "user": "maria", "text": "Love this!" }
+    ],
+    "postedAt": "2025-01-20T09:15:00",
+    "postCount": 42,
+    "followersCount": 1850,
+    "followingCount": 320,
+    "fullName": "John Doe",
+    "profession": "Software Engineer",
+    "bio": "Turning coffee into code every morning.\nLoves solving real-world problems.\nLiving life one commit at a time."
+  },
+  {
+    "id": 2,
+    "username": "tech_guy",
+    "userProfile": "https://i.pravatar.cc/150?img=12",
+    "postImage": "https://picsum.photos/600/400?random=2",
+    "caption": "Debugging all night 😪#happyNight",
+    "likes": 89,
+    "comments": [
+      { "user": "john_doe", "text": "Keep grinding!" }
+    ],
+    "postedAt": "2025-01-19T22:00:00",
+    "postCount": 58,
+    "followersCount": 2200,
+    "followingCount": 410,
+    "fullName": "Kevin Parker",
+    "profession": "Full Stack Developer",
+    "bio": "Coding with passion and purpose.\nAlways learning something new.\nBelieves technology can change lives."
+  },
+  {
+    "id": 3,
+    "username": "toursit_123",
+    "userProfile": "https://i.pravatar.cc/150?img=13",
+    "postImage": "https://picsum.photos/600/400?random=3",
+    "caption": "Beach day 🏖️#beach#bluebeachs",
+    "likes": 340,
+    "comments": [
+      { "user": "sara", "text": "Beautiful view!" },
+      { "user": "mike", "text": "Where is this?" }
+    ],
+    "postedAt": "2025-01-18T14:30:00",
+    "postCount": 76,
+    "followersCount": 5400,
+    "followingCount": 210,
+    "fullName": "Arjun Kumar",
+    "profession": "Travel Blogger",
+    "bio": "Exploring the world one place at a time.\nCapturing moments that tell stories.\nTravel. Capture. Inspire."
+  },
+  {
+    "id": 4,
+    "username": "Ifran_foodie",
+    "userProfile": "https://i.pravatar.cc/150?img=14",
+    "postImage": "https://picsum.photos/600/400?random=4",
+    "caption": "Best pasta in town 🍝 #Pasta#townlife",
+    "likes": 220,
+    "comments": [],
+    "postedAt": "2025-01-18T12:10:00",
+    "postCount": 120,
+    "followersCount": 8900,
+    "followingCount": 520,
+    "fullName": "Irfan Rahman",
+    "profession": "Food Critic",
+    "bio": "Tasting flavors from around the globe.\nSharing honest opinions with love.\nFood is not just taste, it's an emotion."
+  },
+  {
+    "id": 5,
+    "username": "loser_code@1234",
+    "userProfile": "https://i.pravatar.cc/150?img=15",
+    "postImage": "https://picsum.photos/600/400?random=5",
+    "caption": "React + Coffee = ❤️ #codewithCoffee",
+    "likes": 190,
+    "comments": [
+      { "user": "dev_girl", "text": "Same here!" }
+    ],
+    "postedAt": "2025-01-17T20:00:00",
+    "postCount": 33,
+    "followersCount": 1280,
+    "followingCount": 430,
+    "fullName": "Rahul Singh",
+    "profession": "Frontend Developer",
+    "bio": "Breaking things and learning from mistakes.\nFrontend enthusiast with React love.\nCreating UI that speaks for itself."
+  },
+  {
+    "id": 6,
+    "username": "fitness_beast",
+    "userProfile": "https://i.pravatar.cc/150?img=16",
+    "postImage": "https://picsum.photos/600/400?random=6",
+    "caption": "Leg day 🔥 #gymmotivation",
+    "likes": 450,
+    "comments": [
+      { "user": "john_doe", "text": "Beast mode!" }
+    ],
+    "postedAt": "2025-01-16T07:00:00",
+    "postCount": 90,
+    "followersCount": 10200,
+    "followingCount": 110,
+    "fullName": "Rohit Sharma",
+    "profession": "Fitness Trainer",
+    "bio": "Pushing limits every single day.\nHelping others achieve fitness goals.\nStrength is built, not given."
+  },
+  {
+    "id": 7,
+    "username": "nature_lover",
+    "userProfile": "https://i.pravatar.cc/150?img=17",
+    "postImage": "https://picsum.photos/600/400?random=7",
+    "caption": "Mountains calling 🏔️ #mountains",
+    "likes": 380,
+    "comments": [
+      { "user": "alex", "text": "I want to go!" }
+    ],
+    "postedAt": "2025-01-15T10:45:00",
+    "postCount": 150,
+    "followersCount": 7600,
+    "followingCount": 340,
+    "fullName": "Sneha Patel",
+    "profession": "Nature Photographer",
+    "bio": "Capturing the beauty of mother earth.\nFinding peace in mountains and forests.\nNature is the best therapy."
+  },
+  {
+    "id": 8,
+    "username": "vathiyar_gaming",
+    "userProfile": "https://i.pravatar.cc/150?img=18",
+    "postImage": "https://picsum.photos/600/400?random=8",
+    "caption": "New high score 🎮🔥 #highScores#winning",
+    "likes": 140,
+    "comments": [
+      { "user": "maria", "text": "Teach me!" }
+    ],
+    "postedAt": "2025-01-14T19:20:00",
+    "postCount": 65,
+    "followersCount": 3300,
+    "followingCount": 310,
+    "fullName": "Aravind K",
+    "profession": "Gaming Creator",
+    "bio": "Leveling up every single day.\nSharing gameplay moments with the world.\nGaming is not a hobby, it's a lifestyle."
+  },
+  {
+    "id": 9,
+    "username": "pet_paradise",
+    "userProfile": "https://i.pravatar.cc/150?img=19",
+    "postImage": "https://picsum.photos/600/400?random=9",
+    "caption": "My cute puppy 🐶 #petParadise",
+    "likes": 510,
+    "comments": [
+      { "user": "sara", "text": "So cute!" }
+    ],
+    "postedAt": "2025-01-13T09:10:00",
+    "postCount": 48,
+    "followersCount": 6700,
+    "followingCount": 290,
+    "fullName": "Meera John",
+    "profession": "Pet Care Specialist",
+    "bio": "Spreading love through furry friends.\nHelping pets live happier lives.\nAnimals make the world a better place."
+  },
+  {
+    "id": 10,
+    "username": "car_enthusiast",
+    "userProfile": "https://i.pravatar.cc/150?img=20",
+    "postImage": "https://picsum.photos/600/400?random=10",
+    "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
+    "likes": 310,
+    "comments": [
+      { "user": "john_doe", "text": "Wow bro!" }
+    ],
+    "postedAt": "2025-01-12T15:55:00",
+    "postCount": 92,
+    "followersCount": 4300,
+    "followingCount": 180,
+    "fullName": "Vikram Raj",
+    "profession": "Automobile Reviewer",
+    "bio": "Exploring engineering on wheels.\nReviewing machines built with passion.\nCars are more than metal — they're emotions."
+  },
+  {
+    "id": 11,
+    "username": "A_D__Prabhu",
+    "userProfile": "https://i.pravatar.cc/150?img=17",
+    "postImage": "https://picsum.photos/600/400?random=7",
+    "caption": "Mountains calling 🏔️ #mountains",
+    "likes": 380,
+    "comments": [
+      { "user": "alex", "text": "I want to go!" }
+    ],
+    "postedAt": "2025-01-15T10:45:00",
+    "postCount": 44,
+    "followersCount": 2500,
+    "followingCount": 180,
+    "fullName": "Prabhu Aravind",
+    "profession": "Adventure Trekker",
+    "bio": "Chasing heights and fresh air.\nExploring unexplored mountain trails.\nAdventure is the best escape."
+  },
+  {
+    "id": 12,
+    "username": "Gamer_infinity",
+    "userProfile": "https://i.pravatar.cc/150?img=18",
+    "postImage": "https://picsum.photos/600/400?random=8",
+    "caption": "New high score 🎮🔥 #highScores#winning",
+    "likes": 140,
+    "comments": [
+      { "user": "maria", "text": "Teach me!" }
+    ],
+    "postedAt": "2025-01-14T19:20:00",
+    "postCount": 67,
+    "followersCount": 5000,
+    "followingCount": 350,
+    "fullName": "Siva Kumar",
+    "profession": "Esports Player",
+    "bio": "Competing to be the best.\nLoves strategy, speed, and skill.\nGaming is my mindset and passion."
+  },
+  {
+    "id": 13,
+    "username": "Tech_Guruji",
+    "userProfile": "https://i.pravatar.cc/150?img=19",
+    "postImage": "https://picsum.photos/600/400?random=9",
+    "caption": "My cute puppy 🐶 #petParadise",
+    "likes": 510,
+    "comments": [
+      { "user": "sara", "text": "So cute!" }
+    ],
+    "postedAt": "2025-01-13T09:10:00",
+    "postCount": 84,
+    "followersCount": 9600,
+    "followingCount": 420,
+    "fullName": "Rohan Mehta",
+    "profession": "Tech Educator",
+    "bio": "Simplifying tech for everyone.\nSharing knowledge with real-life examples.\nTechnology is the future — embrace it."
+  },
+  {
+    "id": 14,
+    "username": "thar_lover",
+    "userProfile": "https://i.pravatar.cc/150?img=20",
+    "postImage": "https://picsum.photos/600/400?random=10",
+    "caption": "Dream car unlocked 😍 #passion#dreams#achieve",
+    "likes": 310,
+    "comments": [
+      { "user": "john_doe", "text": "Wow bro!" }
+    ],
+    "postedAt": "2025-01-12T15:55:00",
+    "postCount": 102,
+    "followersCount": 7800,
+    "followingCount": 260,
+    "fullName": "Sathish Kumar",
+    "profession": "Off-road Driver",
+    "bio": "Chasing rough terrains for thrill.\nLoves the freedom of open roads.\nAdventure begins where roads end."
+  },
+  {
+    "id": 15,
+    "username": "cricket_lover(IND)",
+    "userProfile": "https://i.pravatar.cc/150?img=18",
+    "postImage": "https://picsum.photos/600/400?random=8",
+    "caption": "New high score 🎮🔥 #highScores#winning",
+    "likes": 140,
+    "comments": [
+      { "user": "maria", "text": "Teach me!" }
+    ],
+    "postedAt": "2025-01-14T19:20:00",
+    "postCount": 59,
+    "followersCount": 6200,
+    "followingCount": 340,
+    "fullName": "Sandeep Raj",
+    "profession": "Cricket Analyst",
+    "bio": "Living life with cricket passion.\nAnalyzing matches and player performance.\nCricket is not a sport, it's an emotion."
+  }
+]
+
+
   ,
     "stories" : [
     {
