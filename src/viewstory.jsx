@@ -1,66 +1,40 @@
-import { use } from "react"
-import useFetch from "./useFetch"
-import { useNavigate, useParams } from "react-router-dom"
-import './index.css'
-import Sidebar from "./components/sidebar"
+import  useFetch  from './useFetch.jsx';
+import { useParams,useNavigate } from "react-router-dom"
 import './profilepage.css'
 
-
 export default function ViewStory(){
-    
 
     const {id} = useParams();
+    const navigate = useNavigate();
 
-    const [profile,loading] = useFetch('http://localhost:3000/suggesstions/'+id);
+    const [posts,loading] = useFetch('http://localhost:3000/posts/'+id);
 
     return (
         <>
         <div>
-            <div className="w-20">
-            <Sidebar/>
-        </div>
-        <div className="w-60">
-            {profile ? (
-                <div className="profilePage">
+            {posts ? (            
+                <div className='postPage'>
+                <i class="bi bi-arrow-left-circle-fill"></i>
+                <div className='post-bar'>
+                    <img src={posts.postImage} alt="Post not found" className='postimage'/>
+                    <div className='post-bottom'>                   
+                        <i className="bi bi-heart"></i>
+                        <i className="bi bi-chat-left"></i>
+                        <i className="bi bi-send"></i>
+                    </div>
                     <div>
-                    <img className="profilePic dp-rounded" src={profile.userProfile} alt="Profile not found"
-                    style={{"marginTop" : "30px" , "widt" : "50p"}}/>
-                </div>
-                 <div className="profileDetails">
-                    <div className="top">
-                    <div><h4>{profile.username}  <i class="bi bi-patch-check-fill" 
-                    style = {{"color" : "blue"}}></i></h4></div>
-                    <div><button className="btn btn-primary"
-                     style = {{"backgroundColor" : "blue"}}>Follow</button></div>
-                    <div><button className="btn btn-secondary">Message</button></div>
-                    <div><h3><i class="bi bi-person-fill-add"></i></h3></div>
-                    <div ><h5><i className="bi bi-three-dots" id="side-logo"></i></h5></div>
-                </div>
-                <div className="middle">
-                    <div><p>{profile.postCount} posts</p></div>
-                    <div><p>{profile.followersCount} followers</p></div>
-                    <div><p>{profile.followingCount} following</p></div>
-                </div>
-                <div className="bottom">
-                    <b>{profile.fullName}</b>
-                    <b style = {{"marginTop" : "20px"}}>{profile.profession}</b>
-                    <p style = {{"marginTop" : "20px" , "fontSize" : "20px"}}>{profile.bio}</p>
-                   
-                </div>
-                 </div>
-                </div>
-            
 
-        ):(
-                <p>Profile loading...</p>
+                    </div>
+                </div>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </div>
+
+        ) : (
+            <p>Loading posts ...</p>
         )}
         </div>
-        </div>
-        <div className="w-20">
-            <p>Suggestion tab</p>
-        </div>
-        </>
-        
+        </>     
+
         
     )
 }

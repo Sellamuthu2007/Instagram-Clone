@@ -1,10 +1,13 @@
 import { useState , useEffect, } from "react";
 import useFetch from "./useFetch";
 import './index.css'
+import { useNavigate, useParams } from "react-router-dom";
 
 
 
 function Suggesstions(){
+    
+    const navigate = useNavigate();
 
     const [profile,load1] = useFetch('http://localhost:3000/profile');
     const [suggest,load2] = useFetch('http://localhost:3000/suggesstions');    
@@ -51,8 +54,10 @@ function Suggesstions(){
                     {
                         "marginTop" : "15px"
                     }
+                    
                  }
                  key = {sugg.id}
+                 onClick={()=> navigate('/profile/'+sugg.id)}
                  >
                     <div className="user-info">
                         <div className="row-flex suggest">

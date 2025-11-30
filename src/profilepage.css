@@ -31,4 +31,20 @@
     margin-left : 20px;
 }
 
+.postPage{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.post-bar{
+    align-items: center;
+    width : 40%;
+    height : 100vh;
+    display: flex;
+
+}
+.post-bar img{
+    width : 80vh;
+}
+
 

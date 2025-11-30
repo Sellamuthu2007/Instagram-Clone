@@ -4,6 +4,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
 import Notfound from './notfound.jsx';
+import ViewProfile from './viewProfile.jsx';
 import ViewStory from './viewstory.jsx';
 
 
@@ -14,6 +15,10 @@ const paths = createBrowserRouter([
     errorElement : <Notfound/>
   }
   ,
+  {
+    path : '/profile/:id',
+    element : <ViewProfile/>
+  },
   {
     path : '/story/:id',
     element : <ViewStory/>
