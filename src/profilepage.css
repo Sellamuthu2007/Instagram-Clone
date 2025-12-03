@@ -30,21 +30,13 @@
 .profileDetails .bottom div{
     margin-left : 20px;
 }
-
 .postPage{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    margin-left : 450px;
 }
-.post-bar{
-    align-items: center;
-    width : 40%;
+.postPage img{
+    width : 50%;
     height : 100vh;
-    display: flex;
-
 }
-.post-bar img{
-    width : 80vh;
+.postPage i{
+    font-size : 30px;
 }
-
-

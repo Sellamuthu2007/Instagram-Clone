@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
 export default function useFetch(url) {
+
+  const {id} = useParams();
   const [data, setData] = useState();     // always an array
   const [loading, setLoading] = useState(true);
 

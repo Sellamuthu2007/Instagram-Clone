@@ -8,6 +8,7 @@ function Stories(){
 
     const [stories,loading] = useFetch('http://localhost:3000/stories')
     const navigate = useNavigate();
+    
 
     return (
         <>
@@ -16,8 +17,8 @@ function Stories(){
                     stories.map((story) =>{
                        return (
                          <div className='storybar' key = {story.id}>
-                            <img src={story.userProfile} alt="Profile not found" className='dp rounded-circle story-border'
-                            onClick={()=> navigate('/story/'+story.id)}/>
+                            <img src={story.postImage} alt="Profile not found" className='dp rounded-circle story-border'
+                            onClick={()=> navigate(`/story/${story.id}/${15}`)}/>
                             <p>{story.username}</p>
                         </div>
                        )

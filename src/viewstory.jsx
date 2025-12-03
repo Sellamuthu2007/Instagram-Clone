@@ -1,37 +1,36 @@
 import  useFetch  from './useFetch.jsx';
-import { useParams,useNavigate } from "react-router-dom"
-import './profilepage.css'
+import { useParams,useNavigate } from "react-router-dom";
+import './profilepage.css';
+import Sidebar from "./components/sidebar"
 
 export default function ViewStory(){
-
-    const {id} = useParams();
+    const {id , tot} = useParams();
     const navigate = useNavigate();
-
-    const [posts,loading] = useFetch('http://localhost:3000/posts/'+id);
+    const ID = Number(id),TOT=Number(tot);
+    if(ID > TOT || ID <= 0){
+        navigate('/')
+    }
+    const [posts,loading] = useFetch('http://localhost:3000/suggesstions/'+id);
 
     return (
         <>
         <div>
-            {posts ? (            
-                <div className='postPage'>
-                <i class="bi bi-arrow-left-circle-fill"></i>
-                <div className='post-bar'>
-                    <img src={posts.postImage} alt="Post not found" className='postimage'/>
-                    <div className='post-bottom'>                   
-                        <i className="bi bi-heart"></i>
-                        <i className="bi bi-chat-left"></i>
-                        <i className="bi bi-send"></i>
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-                <i class="bi bi-arrow-right-circle-fill"></i>
+            <div>
+                <Sidebar/>
             </div>
+            <div>
+                {posts ? (  
+                            
+                <div className='postPage w-80'>
+                    <i class="bi bi-arrow-left-circle-fill" onClick = {()=>{navigate(`/story/${Number(id)-1}/15`)}}></i>
+                    <img src={posts.postImage} alt="Post not found" className='postImage'/>                   
+                    <i class="bi bi-arrow-right-circle-fill" onClick = {()=>{navigate(`/story/${Number(id)+1}/15`)}}></i>
+                </div>
 
         ) : (
-            <p>Loading posts ...</p>
+            <p className='w-80'>Loading posts ...</p>
         )}
+            </div>
         </div>
         </>     
 

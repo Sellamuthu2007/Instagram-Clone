@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Notfound from './notfound.jsx';
 import ViewProfile from './viewProfile.jsx';
 import ViewStory from './viewstory.jsx';
+import ChangeProfile from './changeProfile.jsx';
 
 
 const paths = createBrowserRouter([
@@ -20,8 +21,12 @@ const paths = createBrowserRouter([
     element : <ViewProfile/>
   },
   {
-    path : '/story/:id',
+    path : '/story/:id/:tot',
     element : <ViewStory/>
+  },
+  {
+    path : '/myprofile',
+    element : <ChangeProfile/>
   }
 ])
 
