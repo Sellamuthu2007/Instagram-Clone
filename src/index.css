@@ -14,6 +14,27 @@
   margin-left:20%;  
   width : 80%;
 }
+body.dark{
+  background-color:black;
+  color : white;
+  transition : 0.3s ease;
+}
+body.white{
+  background-color: white;
+  color :black;
+  transition : 0.3s ease;
+}
+body.dark .sidebar div { 
+  background: black; 
+  color: white; 
+}
+body.dark i{
+  color : white;
+}
+body.light .sidebar div {
+  background: white; 
+  color: black; 
+}
 
 .logo-text{ 
   width : 200px;

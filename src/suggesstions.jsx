@@ -12,7 +12,10 @@ function Suggesstions(){
     const navigate = useNavigate();
 
     const [profile,load1] = useFetch('http://localhost:3000/profile');
-    const [suggest,load2] = useFetch('http://localhost:3000/suggesstions');    
+    const [suggest,load2] = useFetch('http://localhost:3000/suggesstions');  
+    
+    const [theme,setTheme] = useState('dark');
+    const [btnColor,setBtnColor] = useState('black');
 
     const handleFollow = async(id,username)=>{
         axios.post('http://localhost:3000/followers',{
@@ -22,20 +25,44 @@ function Suggesstions(){
         .then(()=> alert(`You are following ${username}`))
         .catch((err)=> console.log(err.message))
     }
+
+    const toggleTheme = ()=>{
+        setBtnColor(theme == 'dark' ? '#222' : 'white')
+        setTheme(theme == 'dark' ? 'white' : 'dark')
+    }
+    useEffect(() =>{
+        document.body.className = theme;
+        localStorage.setItem("theme",theme);
+    },[theme]);
+
+    useEffect(()=>{
+        const currentTheme = localStorage.getItem("theme");
+        if(currentTheme)setTheme(currentTheme);
+    },[theme])
     return (
        <>
         <div className="suggesstion">
         {profile  ? (
             <div className="d-flex"
             style = {{
+                        "cursor" : "pointer",
                         "marginLeft" : "10px",
-                        "marginTop" : "40px"}}>
-                <img src={profile.userProfile} alt="Profile image" className="dp rounded-circle" />
-                <h5>{profile.username}</h5>
-                <p className="side-right"
-                style={{
-                            "marginRight" : "90px"
-                        }}>Switch</p>
+                        "marginTop" : "20px"}}>
+                <img src={profile.userProfile} alt="Profile image" className="dp rounded-circle" 
+                 onClick = {()=>navigate('/myprofile')}/>
+                <h5  onClick = {()=>navigate('/myprofile')}>{profile.username}</h5>
+                <i 
+            className={`bi ${theme === "dark" ? "bi-sun" : "bi-moon"}`}  
+            style = {{
+                        "marginRight" : "0px",
+                        "color" : {btnColor},
+                        "fontSize" : "25px",
+                        "marginTop" : "0px",
+                        "marginLeft" : "160px"
+
+                        }}
+                onClick={toggleTheme}
+                ></i>
             </div>          
             
          )

@@ -9,10 +9,7 @@ function Posts (){
     return (             
             <div className="d-flex justify-content-center">
                 {posts ? (
-                    <div style = {{
-                                    "overflow-y" : "auto",
-                                    "height" : "100vh"
-                                }}>
+                    <div>
                         {posts.map((post)=>{
                             return (
                                 <div key = {post.id} className="y-3">
