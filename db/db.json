@@ -585,5 +585,14 @@
       "postImage": "https://picsum.photos/600/400?random=8"
     }
   ],
-  "followers": []
+  "followers": [
+    {
+      "id": "4",
+      "username": "Ifran_foodie"
+    },
+    {
+      "id": "3",
+      "username": "toursit_123"
+    }
+  ]
 }
