@@ -76,27 +76,27 @@ function Suggesstions(){
         
         style={{ "marginRight" : "90px"}}>See all </p>
     </div>
-    <div style = {{"overflow-y" : "auto" , "height" : "100vh"}}>
+    <div style = {{"overflowY" : "auto" , "height" : "100vh"}}>
          {suggest ?  (
             suggest.map((sugg)=>{
                return (
                 <>
-                 <div className="row-flex suggest"
+                <div className="row-flex suggest"
                  style = {{ "marginTop" : "15px"}}
                  key = {sugg.id}
-                 >
+                >
                     <div className="user-info">
                         <div className="row-flex suggest">
-    <div className="user-info"
-        onClick={()=> navigate('/profile/'+sugg.id)}>
-        <img src={sugg.userProfile} className="dp rounded-circle story-border" 
-        style = {{
-                "height" : "40px",
-                "width" : "40px"
-                }}/>
-        <h5>{sugg.username}</h5>
-    </div>
-    </div>
+                            <div className="user-info"
+                                onClick={()=> navigate('/profile/'+sugg.id)}>
+                                <img src={sugg.userProfile} className="dp rounded-circle story-border" 
+                                style = {{
+                                "height" : "40px",
+                                "width" : "40px"
+                            }}/>
+                                <h5>{sugg.username}</h5>
+                            </div>
+                        </div>
                     </div>
                     <a className="ms-auto text-primary"
                     style={{
@@ -106,7 +106,7 @@ function Suggesstions(){
                         }}
                     onClick={()=>{handleFollow(sugg.id,sugg.username)}}
                     >Follow</a>
-                 </div>
+                </div>
                 </>
                )
             })
